@@ -44,11 +44,9 @@
 
   function run() {
     playBtnElem.addEventListener('click', onClick);
-
     audioElem.addEventListener('loadeddata', onLoadedData);
     audioElem.addEventListener('timeupdate', onTimeUpdate);
     audioElem.addEventListener('ended', onEnded);
-
     progressBarElem.addEventListener('input', onInput);
   }
   run();
