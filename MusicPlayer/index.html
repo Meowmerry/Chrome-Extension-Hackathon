@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>15 - Music Player</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cover">
+        <img src="./adam.jpg" />
+      </div>
+
+      <div class="music">
+        <div class="title">Music Player</div>
+        <div class="singer">Maroon 5</div>
+      </div>
+
+      <div class="control">
+        <div class="timeline">
+          <span class="start-time">0:00</span>
+          <input type="range" step="1" class="progress-bar" value="0" />
+
+          <audio>
+            <source src="./Maroon5Sugar.mp3" type="audio/mp3" />
+            <!-- <source src="http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3"> -->
+            <!-- <source src="http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.ogg"> -->
+          </audio>
+          <span class="end-time">0:00</span>
+        </div>
+        <button class="play"></button>
+      </div>
+    </div>
+
+     <!-- <script src="./start.js"></script> -->
+     <script src="./finished.js"></script>
+  </body>
+</html>
