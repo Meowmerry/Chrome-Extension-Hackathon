@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "focusTime",
+    "version": "1.0",
+    "description": "focusTime",
+    "action": {
+        "default_icon": "icons16.png",
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "128": "icons128.png"
+    }
+}

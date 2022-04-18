@@ -1,11 +1,13 @@
 
 body{
-    /* width: 300px;
-    height: 300px; */
-    border: 2px solid #63BCC9;
-    background-color: #63BCC9;
+    width: 300px;
+    height: 320px;
+    border: 2px solid #066979;
+    /* background-color: #225663; */
+    background-image: url('./bg.jpg');
     display: flex;
     justify-content: center;
+    border-radius: 8px;
 }
 .container {
     text-align: center;
@@ -24,7 +26,7 @@ input{
 }
 button{
     font-size: 25px;
-    background-color: #202124;
+    background-color: #00144e;
     width: 63px;
     height: 43px;
     margin: 2px;
@@ -34,10 +36,10 @@ button{
     cursor: pointer;
 }
 .blue{
-    background-color: #5870c1;
+    background-color: #2337ad;
 }
 .light_gray{
-    background-color: #424548;
+    background-color: #033f7a;
 }
 .button::after{
     background-color: #FDC094;

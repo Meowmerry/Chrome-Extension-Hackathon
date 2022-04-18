@@ -1,0 +1,38 @@
+#gamut-kwxs2v-PopoverContainer {
+    justify-content: center;
+    display: flex;
+}
+.gamut-1c3un97-StyledForm {
+    padding-top: 1rem;
+    position: relative;
+}
+.gamut-11vw169-RaisedDiv {
+    z-index: 1;
+    border-radius: 2px;
+    border: 1px solid #10162f;
+    background-color: #34b3a0;
+}
+.gamut-13zhiie-Box {
+    padding: 2rem 1rem;
+    width: 20rem;
+    background-color: #fff;
+    text-align: center;
+}
+div {
+    display: block;
+}
+.gamut-14vqmo4-Text {
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 1.625rem;
+    margin: 0px 0px 0.5rem;
+}
+.gamut-1hjcox-ResetElement{
+    background-color: #3a10e5;
+    content: "";
+    transition: opacity 150ms ease-in 0s;
+    border-radius: 4px;
+    border-color: #10162f;
+    color: #fff;
+    cursor: pointer;
+}
